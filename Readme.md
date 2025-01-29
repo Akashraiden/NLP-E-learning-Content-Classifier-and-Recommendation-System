@@ -43,3 +43,12 @@
 - **Cosine Similarity**: Used to measure the similarity between courses.
 - **Matplotlib / Seaborn**: Used for data visualization and exploration.
 
+- ### Model Evaluation and Results
+
+The **Random Forest Classifier** was trained to predict the **sub-category** of a course based on features such as course title, skills, course type, and duration. The model's performance was evaluated using the following metrics:
+
+- **Accuracy**: 0.83
+- **Precision**: 0.82
+- **Recall**: 0.83
+- **F1-Score**: 0.81
+
