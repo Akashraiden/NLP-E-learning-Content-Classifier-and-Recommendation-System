@@ -3,6 +3,7 @@
 ### Project Overview:
 #### This project aims to classify and recommend e-learning content based on user preferences, engagement, and learning patterns. Using NLP and ML techniques, it automates content categorization and suggests relevant courses to enhance personalized learning. The system analyzes course descriptions, user behavior, and feedback to provide accurate recommendations. It improves user experience by ensuring access to the most relevant educational resources.
 
+
 ### The system has two major components:
 1. **Content Classification**: Classifies courses into sub-categories based on the course title, skills, course type, and duration.
 2. **Course Recommendation**: Recommends similar courses based on a given course using cosine similarity on feature vectors.
@@ -29,6 +30,7 @@
 - **Data Cleaning**: In the EDA phase, the dataset is thoroughly cleaned to remove unnecessary or duplicate information.
 - **Handling Missing Values**: Columns with **90% or more missing data** are dropped to improve the dataset's quality and efficiency in modeling.
 - **Visual Exploration**: Key statistics and visualizations are generated, including the distribution of sub-categories, correlation of features, and missing value patterns, to guide the feature engineering process.
+- **Further Feature Engineering and Data Visualization**: Additional feature engineering techniques and more advanced visual exploration were performed on the dataset to improve the classification and recommendation models' accuracy. For more details, refer to the `EDA_and_Feature_Engineering.ipynb` file.
 
 ## Technologies Used
 
@@ -40,3 +42,4 @@
 - **Pickle**: For saving and loading the trained models and vectorizers.
 - **Cosine Similarity**: Used to measure the similarity between courses.
 - **Matplotlib / Seaborn**: Used for data visualization and exploration.
+
